@@ -7,8 +7,7 @@
     { "source": "/signup",    "destination": "https://time.oraconsultant.ai/signup",    "permanent": false },
     { "source": "/app",       "destination": "https://time.oraconsultant.ai",           "permanent": false },
     { "source": "/app/:path*","destination": "https://time.oraconsultant.ai/:path*",    "permanent": false },
-    { "source": "/privacy",   "destination": "https://time.oraconsultant.ai/privacy",   "permanent": true  },
-    { "source": "/terms",     "destination": "https://time.oraconsultant.ai/terms",     "permanent": true  },
+    { "source": "/support",   "destination": "https://time.oraconsultant.ai/support",   "permanent": true  },
     { "source": "/changelog", "destination": "https://time.oraconsultant.ai/changelog", "permanent": true  }
   ]
 }

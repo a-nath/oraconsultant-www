@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Terms of Service - Ora Consultant</title>
+<meta name="description" content="The terms that govern your use of the Ora Consultant suite, operated by PrismiQ OÜ." />
+<meta name="author" content="PrismiQ OÜ" />
+<meta name="theme-color" content="#0D1217" />
+<!-- Icons -->
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Ora Consultant" />
+<meta property="og:title" content="Terms of Service - Ora Consultant" />
+<meta property="og:description" content="The terms that govern your use of the Ora Consultant suite." />
+<meta property="og:url" content="https://oraconsultant.ai/terms" />
+<meta property="og:image" content="https://oraconsultant.ai/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Terms of Service - Ora Consultant" />
+<meta name="twitter:description" content="The terms that govern your use of the Ora Consultant suite." />
+<meta name="twitter:image" content="https://oraconsultant.ai/og-image.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
+<style>
+  /* ---------- Tokens (shared with the hub) ---------- */
+  :root{
+    --ink:#0D1217;
+    --ink-soft:#3A434D;
+    --grey-word:#9CA8B6;
+    --bg:#FFFFFF;
+    --bg-elev:#FFFFFF;
+    --bg-muted:#F5F7F9;
+    --bg-tint:#FBFCFD;
+    --line:#E7ECF0;
+    --line-soft:#EEF2F5;
+    --shadow:0 1px 2px rgba(13,18,23,.04), 0 12px 40px rgba(13,18,23,.06);
+    --nav-bg:rgba(255,255,255,.72);
+    --time:#1D9E75;       --time-t:#126E52;   --time-d:#5DCAA5;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#F3F6F8;
+      --ink-soft:#AEB9C4;
+      --grey-word:#8593A2;
+      --bg:#0D1217;
+      --bg-elev:#141B22;
+      --bg-muted:#11171D;
+      --bg-tint:#0F151B;
+      --line:#222C35;
+      --line-soft:#1B242C;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 14px 44px rgba(0,0,0,.5);
+      --nav-bg:rgba(13,18,23,.66);
+      --time:#5DCAA5; --time-t:#5DCAA5;
+    }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:"DM Sans",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+    line-height:1.5;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  .eyebrow{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--grey-word)}
+
+  /* ---------- Wordmark ---------- */
+  .wm{font-family:"DM Sans",system-ui,-apple-system,sans-serif;display:inline-flex;align-items:baseline;gap:.333em;white-space:nowrap;line-height:1;font-weight:400;letter-spacing:0}
+  .wm .o{font-size:2.667em;font-weight:500;letter-spacing:-.025em;line-height:1}
+  .wm .c{font-weight:400;color:var(--grey-word)}
+  .wm.brand .o{color:var(--time)}
+
+  /* ---------- Nav ---------- */
+  header.nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:var(--nav-bg);border-bottom:1px solid transparent;transition:border-color .3s}
+  header.nav.scrolled{border-color:var(--line)}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;height:60px;max-width:1120px;margin:0 auto;padding:0 24px}
+  .nav-in .wm{font-size:15px}
+  .nav-links{display:flex;align-items:center;gap:28px}
+  .nav-links a{font-size:14px;font-weight:500;color:var(--ink-soft);transition:color .2s}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-cta{font-weight:600;color:var(--time)!important}
+  @media(max-width:680px){.nav-links a.hide-sm{display:none}}
+
+  /* ---------- Legal document ---------- */
+  .legal{padding:56px 0 24px}
+  .legal .wrap{max-width:760px}
+  .legal h1{font-size:clamp(32px,5vw,48px);letter-spacing:-.03em;font-weight:700;line-height:1.08;margin:12px 0 0}
+  .legal .eff{margin:14px 0 0;font-size:14px;color:var(--grey-word);font-weight:500}
+  .legal .body{margin-top:36px}
+  .legal .body p{font-size:16px;color:var(--ink-soft);line-height:1.65;margin:0 0 18px}
+  .legal h2{font-size:22px;letter-spacing:-.02em;font-weight:700;line-height:1.22;margin:42px 0 0;color:var(--ink)}
+  .legal h2 + p{margin-top:14px}
+  .legal strong{color:var(--ink);font-weight:600}
+  .legal ul{margin:6px 0 18px;padding-left:0;list-style:none}
+  .legal li{position:relative;padding-left:22px;margin:0 0 11px;font-size:16px;color:var(--ink-soft);line-height:1.6}
+  .legal li::before{content:"";position:absolute;left:3px;top:10px;width:5px;height:5px;border-radius:50%;background:var(--time)}
+  .legal a.inline{color:var(--time-t);font-weight:500;border-bottom:1px solid color-mix(in srgb, var(--time) 32%, transparent);transition:border-color .2s}
+  .legal a.inline:hover{border-bottom-color:var(--time-t)}
+  .legal .back{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-size:15px;color:var(--ink-soft)}
+  .legal .back a{color:var(--time-t);font-weight:600}
+  .legal .back a:hover{text-decoration:underline}
+
+  /* ---------- Footer ---------- */
+  footer{border-top:1px solid var(--line);padding:40px 0 56px;margin-top:40px}
+  .foot-in{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
+  .foot-links{display:flex;gap:24px;flex-wrap:wrap}
+  .foot-links a{font-size:14px;color:var(--ink-soft)}
+  .foot-links a:hover{color:var(--ink)}
+  .foot-copy{font-size:13px;color:var(--grey-word)}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-in">
+    <a class="wm brand" href="/"><span class="o">Ora</span><span class="c">Consultant™</span></a>
+    <nav class="nav-links">
+      <a href="/#products">Products</a>
+      <a href="/#system" class="hide-sm">Design</a>
+      <a class="nav-cta" href="https://time.oraconsultant.ai">Open Time&nbsp;→</a>
+    </nav>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="wrap">
+    <div class="eyebrow">Ora Consultant Suite</div>
+    <h1>Terms of Service</h1>
+    <p class="eff">Effective 23 June 2026</p>
+
+    <div class="body">
+      <p>These Terms of Service (“Terms”) govern your use of the Ora Consultant™ suite, our family of AI-native products for the business of consulting, operated by PrismiQ OÜ (“we”, “us”). The suite currently comprises Ora Consultant Time (available now), with Expenses, Tax, Schedule, Networth, and Transcript in development. These Terms apply to the suite hub at oraconsultant.ai, each product’s web app (such as time.oraconsultant.ai), and our mobile apps for iOS and Android (together, the “Services”). By creating an account or using any part of the suite, you agree to these Terms. If you don’t agree, please don’t use the Services.</p>
+
+      <h2>What the Ora Consultant suite does</h2>
+      <p>The suite helps consultants and small businesses run the business side of their practice. Ora Consultant Time, the product available today, helps you log time, generate invoices, forecast revenue, and track payments across multiple clients and currencies; its AI capture feature parses natural-language descriptions into structured time entries. The forthcoming products extend the same approach to expenses, tax, scheduling, net worth, and meeting transcripts. The Services are provided as hosted web applications and as mobile apps for iOS and Android.</p>
+
+      <h2>Your account</h2>
+      <p>You need to create an account to use the Services. A single account works across the suite. When you create it, you agree to provide accurate information and to keep your login credentials secure. You are responsible for all activity under your account, including by anyone you give access to (intentionally or otherwise).</p>
+      <p>You must be at least 16 years old to use the Services. The Services are intended for professional use, not for personal consumer tracking.</p>
+
+      <h2>Subscription and billing</h2>
+      <p>Suite products offer a Free tier and paid tiers (such as Plus and Pro), billed monthly or annually. How you are billed depends on where you subscribe: on the web, payments are processed by Stripe in the currency listed on the pricing page; in our iOS apps, by the Apple App Store; and in our Android apps, by Google Play. App store purchases are also subject to Apple’s or Google’s terms. Pricing, features, and tier limits are described on each product’s pricing page (for Time, <a class="inline" href="https://time.oraconsultant.ai/pricing">time.oraconsultant.ai/pricing</a>) and may change with notice.</p>
+      <p>Subscriptions auto-renew at the end of each billing period unless cancelled. You can cancel a web (Stripe) subscription at any time from the Account section. Subscriptions purchased through the Apple App Store or Google Play must be managed and cancelled in your Apple or Google account settings on your device, not through us. Cancellation takes effect at the end of the current billing period, you keep access through that period, and you are not charged again.</p>
+      <p><strong>Refunds.</strong> We do not issue refunds for partial billing periods. For web (Stripe) payments, if you believe you were charged in error, or if a service issue prevented you from using a paid tier you were billed for, contact us at <a class="inline" href="mailto:support@oraconsultant.ai">support@oraconsultant.ai</a> and we will investigate; we may issue a discretionary refund in clear-error cases. Refunds for purchases made through the Apple App Store or Google Play are handled by Apple or Google under their own refund policies, and should be requested directly from the relevant store.</p>
+      <p><strong>Price changes.</strong> We may change prices for new subscriptions at any time. For existing subscribers, we will give at least 30 days’ notice before any price change applies to a renewal. You can cancel within that window to avoid the new price.</p>
+
+      <h2>Apple App Store and Google Play</h2>
+      <p>When you download a suite app from the Apple App Store or Google Play, the app is licensed, not sold, to you, and your use is also subject to that store’s own terms and Usage Rules. For the Apple App Store specifically:</p>
+      <ul>
+        <li>These Terms are between you and PrismiQ OÜ only, not with Apple, and Apple is not responsible for the app or its content.</li>
+        <li>Apple has no obligation to furnish any maintenance or support for the app; we, not Apple, are solely responsible for support and for any product warranties to the extent not effectively disclaimed.</li>
+        <li>Apple is not responsible for addressing any claims relating to the app, including product-liability, regulatory, or consumer-protection claims, or any third-party claim that the app infringes intellectual property rights.</li>
+        <li>Apple and its subsidiaries are third-party beneficiaries of these Terms and may enforce them against you. You confirm you are not located in a country subject to a U.S. Government embargo and are not on any U.S. Government restricted-parties list. Equivalent provisions apply to Google Play under the Google Play Terms of Service.</li>
+      </ul>
+
+      <h2>Acceptable use</h2>
+      <p>When using the Services, please don’t:</p>
+      <ul>
+        <li>Use the Services to violate any law or another person’s rights.</li>
+        <li>Attempt to reverse engineer, decompile, or extract source from the Services, except to the limited extent applicable law explicitly permits.</li>
+        <li>Resell, sublicense, or redistribute the Services to third parties as if it were your own product.</li>
+        <li>Abuse the AI capture feature (automated bulk submissions, attempts to extract our prompts, etc.).</li>
+        <li>Submit content that contains malware, illegal content, or third-party confidential information you don’t have the right to share.</li>
+        <li>Interfere with the Services, attempt unauthorized access to other users’ data, or probe for security vulnerabilities outside a coordinated disclosure to us.</li>
+      </ul>
+
+      <h2>Your data, our service</h2>
+      <p>You own your data. The records you create - time entries, client records, expected payments, invoice profiles, and any logos or files you upload, along with the equivalent data in other suite products - remain yours. By using the Services, you grant us a limited, non-exclusive license to host, process, and display that data solely to provide the Services to you.</p>
+      <p>We own the Services themselves: the software, branding, interface design, and Ora-generated artifacts that aren’t derived from your inputs. The marketing materials, this policy, and the application code remain our intellectual property.</p>
+
+      <h2>AI features</h2>
+      <p>The AI capture feature uses third-party large language models to interpret your input. We aim for high accuracy but cannot guarantee that the AI will correctly parse every sentence, currency, or rate. You are responsible for reviewing each entry before saving (the confirmation step exists for this reason). Don’t submit confidential third-party information through AI capture if you wouldn’t be comfortable having it processed by Anthropic under their privacy terms.</p>
+
+      <h2>Documents, taxes, and your obligations</h2>
+      <p>Suite products generate documents and figures from the data you enter - for example invoice PDFs and Word documents in Time, and equivalent outputs (such as expense records, tax estimates, and reports) in the products that follow. You are responsible for the accuracy of every document, including tax treatment (VAT, sales tax, etc.), payment instructions, and legal compliance with your jurisdiction. Ora is a tool to assist with bookkeeping, not an accountant, tax advisor, or financial or legal adviser; nothing in the Services is professional advice. Verify your figures before sending an invoice to a client or relying on an estimate.</p>
+
+      <h2>Service availability</h2>
+      <p>We aim to keep the Services running reliably and will work to minimize downtime. We do not, however, guarantee uninterrupted access. The Services may be unavailable during planned maintenance, in response to a security incident, or due to third-party infrastructure issues beyond our control. We do not offer a formal uptime SLA on any tier.</p>
+
+      <h2>Disclaimers</h2>
+      <p>The Services are provided “as is” and “as available” without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, accuracy, or non-infringement. We do not warrant that the Services will meet your specific requirements, that AI parsing will always be accurate, or that the data you generate (invoices, reports, exports) will be error-free or appropriate for any particular use.</p>
+
+      <h2>Limitation of liability</h2>
+      <p>To the maximum extent permitted by law, our total liability to you for any claim arising out of or relating to the Services is capped at the greater of (a) the fees you paid us in the 12 months preceding the claim, or (b) one hundred US dollars (USD 100). We are not liable for indirect, incidental, special, consequential, exemplary, or punitive damages, including loss of profits, business interruption, lost data, or reputational harm, even if advised of the possibility of such damages. Some jurisdictions don’t allow these limitations, in which case the limits apply to the fullest extent permitted.</p>
+
+      <h2>Indemnification</h2>
+      <p>You agree to indemnify and hold us harmless against third-party claims arising from (a) your violation of these Terms, (b) your misuse of the Services, or (c) your content or invoices to the extent they cause a third-party dispute. We will indemnify you against third-party claims that the Services themselves, used as intended, infringe the third party’s intellectual property rights.</p>
+
+      <h2>Termination</h2>
+      <p>You can stop using the Services at any time by cancelling your subscription and (if you wish) deleting your account from Settings or by emailing us. Upon account deletion, your data is purged per the Privacy Policy.</p>
+      <p>We may suspend or terminate your account if you violate these Terms, abuse the Services, fail to pay fees, or where required by law. We will give you reasonable notice when practical and the chance to cure where appropriate.</p>
+
+      <h2>Governing law</h2>
+      <p>These Terms are governed by the laws of the Republic of Estonia, without regard to conflict-of-law principles. Disputes arising under or relating to these Terms will be resolved in the courts of Tallinn, Estonia, unless mandatory consumer-protection laws in your country require otherwise. Nothing in this clause limits any consumer right you may have under EU law.</p>
+
+      <h2>Changes to these Terms</h2>
+      <p>We may update these Terms from time to time. When we make material changes, we will post the updated version with a new effective date and notify you by email at least 14 days before the changes take effect. Your continued use of the Services after the effective date constitutes acceptance of the new Terms.</p>
+
+      <h2>General</h2>
+      <p>These Terms, together with our Privacy Policy, are the entire agreement between you and us regarding the Services and supersede any prior agreements. If any provision is held unenforceable, the remaining provisions stay in effect. Our failure to enforce a provision is not a waiver of it. You may not assign these Terms without our consent; we may assign them to an affiliate or successor (for example, in a merger or sale of assets).</p>
+      <p><strong>Force majeure.</strong> We are not liable for any failure or delay caused by events beyond our reasonable control, including outages of third-party infrastructure, network or power failures, or acts of government.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about these Terms? Email <a class="inline" href="mailto:support@oraconsultant.ai">support@oraconsultant.ai</a>. For privacy questions specifically, see our <a class="inline" href="/privacy">Privacy Policy</a>.</p>
+
+      <div class="back">
+        <a href="/">← Back to home</a> · <a href="/privacy">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <a class="wm brand" href="/" style="font-size:13px"><span class="o">Ora</span><span class="c">Consultant™</span></a>
+    <div class="foot-links">
+      <a href="https://time.oraconsultant.ai">Time</a>
+      <a href="/#products">Products</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+    </div>
+    <div class="foot-copy">© 2026 PrismiQ OÜ</div>
+  </div>
+</footer>
+
+<script>
+  document.documentElement.classList.add('js');
+  var nav=document.getElementById('nav');
+  var onScroll=function(){ nav.classList.toggle('scrolled', window.scrollY>8); };
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+</script>
+</body>
+</html>

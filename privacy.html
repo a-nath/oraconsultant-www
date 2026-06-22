@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Privacy Policy - Ora Consultant</title>
+<meta name="description" content="How the Ora Consultant suite, operated by PrismiQ OÜ, handles your data across Time and the rest of the suite." />
+<meta name="author" content="PrismiQ OÜ" />
+<meta name="theme-color" content="#0D1217" />
+<!-- Icons -->
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Ora Consultant" />
+<meta property="og:title" content="Privacy Policy - Ora Consultant" />
+<meta property="og:description" content="How the Ora Consultant suite handles your data." />
+<meta property="og:url" content="https://oraconsultant.ai/privacy" />
+<meta property="og:image" content="https://oraconsultant.ai/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Privacy Policy - Ora Consultant" />
+<meta name="twitter:description" content="How the Ora Consultant suite handles your data." />
+<meta name="twitter:image" content="https://oraconsultant.ai/og-image.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
+<style>
+  /* ---------- Tokens (shared with the hub) ---------- */
+  :root{
+    --ink:#0D1217;
+    --ink-soft:#3A434D;
+    --grey-word:#9CA8B6;
+    --bg:#FFFFFF;
+    --bg-elev:#FFFFFF;
+    --bg-muted:#F5F7F9;
+    --bg-tint:#FBFCFD;
+    --line:#E7ECF0;
+    --line-soft:#EEF2F5;
+    --shadow:0 1px 2px rgba(13,18,23,.04), 0 12px 40px rgba(13,18,23,.06);
+    --nav-bg:rgba(255,255,255,.72);
+    --time:#1D9E75;       --time-t:#126E52;   --time-d:#5DCAA5;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#F3F6F8;
+      --ink-soft:#AEB9C4;
+      --grey-word:#8593A2;
+      --bg:#0D1217;
+      --bg-elev:#141B22;
+      --bg-muted:#11171D;
+      --bg-tint:#0F151B;
+      --line:#222C35;
+      --line-soft:#1B242C;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 14px 44px rgba(0,0,0,.5);
+      --nav-bg:rgba(13,18,23,.66);
+      --time:#5DCAA5; --time-t:#5DCAA5;
+    }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:"DM Sans",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+    line-height:1.5;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  .eyebrow{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--grey-word)}
+
+  /* ---------- Wordmark ---------- */
+  .wm{font-family:"DM Sans",system-ui,-apple-system,sans-serif;display:inline-flex;align-items:baseline;gap:.333em;white-space:nowrap;line-height:1;font-weight:400;letter-spacing:0}
+  .wm .o{font-size:2.667em;font-weight:500;letter-spacing:-.025em;line-height:1}
+  .wm .c{font-weight:400;color:var(--grey-word)}
+  .wm.brand .o{color:var(--time)}
+
+  /* ---------- Nav ---------- */
+  header.nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:var(--nav-bg);border-bottom:1px solid transparent;transition:border-color .3s}
+  header.nav.scrolled{border-color:var(--line)}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;height:60px;max-width:1120px;margin:0 auto;padding:0 24px}
+  .nav-in .wm{font-size:15px}
+  .nav-links{display:flex;align-items:center;gap:28px}
+  .nav-links a{font-size:14px;font-weight:500;color:var(--ink-soft);transition:color .2s}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-cta{font-weight:600;color:var(--time)!important}
+  @media(max-width:680px){.nav-links a.hide-sm{display:none}}
+
+  /* ---------- Legal document ---------- */
+  .legal{padding:56px 0 24px}
+  .legal .wrap{max-width:760px}
+  .legal h1{font-size:clamp(32px,5vw,48px);letter-spacing:-.03em;font-weight:700;line-height:1.08;margin:12px 0 0}
+  .legal .eff{margin:14px 0 0;font-size:14px;color:var(--grey-word);font-weight:500}
+  .legal .body{margin-top:36px}
+  .legal .body p{font-size:16px;color:var(--ink-soft);line-height:1.65;margin:0 0 18px}
+  .legal h2{font-size:22px;letter-spacing:-.02em;font-weight:700;line-height:1.22;margin:42px 0 0;color:var(--ink)}
+  .legal h2 + p{margin-top:14px}
+  .legal strong{color:var(--ink);font-weight:600}
+  .legal ul{margin:6px 0 18px;padding-left:0;list-style:none}
+  .legal li{position:relative;padding-left:22px;margin:0 0 11px;font-size:16px;color:var(--ink-soft);line-height:1.6}
+  .legal li::before{content:"";position:absolute;left:3px;top:10px;width:5px;height:5px;border-radius:50%;background:var(--time)}
+  .legal a.inline{color:var(--time-t);font-weight:500;border-bottom:1px solid color-mix(in srgb, var(--time) 32%, transparent);transition:border-color .2s}
+  .legal a.inline:hover{border-bottom-color:var(--time-t)}
+  .legal .back{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-size:15px;color:var(--ink-soft)}
+  .legal .back a{color:var(--time-t);font-weight:600}
+  .legal .back a:hover{text-decoration:underline}
+
+  /* ---------- Footer ---------- */
+  footer{border-top:1px solid var(--line);padding:40px 0 56px;margin-top:40px}
+  .foot-in{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
+  .foot-links{display:flex;gap:24px;flex-wrap:wrap}
+  .foot-links a{font-size:14px;color:var(--ink-soft)}
+  .foot-links a:hover{color:var(--ink)}
+  .foot-copy{font-size:13px;color:var(--grey-word)}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-in">
+    <a class="wm brand" href="/"><span class="o">Ora</span><span class="c">Consultant™</span></a>
+    <nav class="nav-links">
+      <a href="/#products">Products</a>
+      <a href="/#system" class="hide-sm">Design</a>
+      <a class="nav-cta" href="https://time.oraconsultant.ai">Open Time&nbsp;→</a>
+    </nav>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="wrap">
+    <div class="eyebrow">Ora Consultant Suite</div>
+    <h1>Privacy Policy</h1>
+    <p class="eff">Effective 23 June 2026</p>
+
+    <div class="body">
+      <p>This Privacy Policy explains how PrismiQ OÜ (“we”, “us”) handles your data across the Ora Consultant™ suite, our family of AI-native products for the business of consulting. The suite currently comprises Ora Consultant Time (available now), with Expenses, Tax, Schedule, Networth, and Transcript in development. It applies to the suite hub at oraconsultant.ai, each product’s web app (such as time.oraconsultant.ai), and our mobile apps for iOS and Android (together, the “Services”). One account works across the suite, and this policy governs all of it. We try to keep the language clear, the scope narrow, and the practices simple. If something here is unclear or you want a copy of the data we hold on you, email us at <a class="inline" href="mailto:support@oraconsultant.ai">support@oraconsultant.ai</a>.</p>
+
+      <h2>Information we collect</h2>
+      <p>We collect only what we need to run the Services. Nothing is sold to third parties or used to power advertising.</p>
+      <p><strong>Account information.</strong> Your email address, name, and a password hash (we never store your password in plaintext). Authentication is handled by Supabase. If you sign in with Google or another OAuth provider, we receive your email and name from that provider. A single account is shared across every product in the suite.</p>
+      <p><strong>The data you enter into suite products.</strong> The records you create while using the Services. In Ora Consultant Time, this is your time entries (client name, hours worked, description of the work, date, and any associated fee or invoice metadata), along with your client records (names, rates, currencies), expected payments, and invoice profiles. As the other products become available, this extends to the data they manage, for example receipts and expense records (Expenses), tax estimates and filing details (Tax), schedule and calendar data (Schedule), account and asset balances (Networth), and meeting transcripts and summaries (Transcript). This content is yours.</p>
+      <p><strong>Payment information.</strong> Subscription billing on the web is handled by Stripe. On iOS and Android, in-app purchases are processed by the Apple App Store and Google Play, with purchase and subscription status relayed to us through RevenueCat. On every platform we never see or store your full card details. From Stripe we receive a customer ID, subscription status, and the last 4 digits of your card for display in the Account section; from the app stores (via RevenueCat) we receive only a subscription identifier and status.</p>
+      <p><strong>AI input.</strong> When you capture an entry by typing or speaking a sentence, the text is sent to Anthropic’s API for parsing. Voice input is transcribed either in your browser (Web Speech API) or, when that is not available on your device, by sending the audio to OpenAI’s Whisper API for transcription; the resulting text is then parsed as above. We log that an AI call was made (count and timestamp) for billing and rate limiting, but do not retain the input text on our servers beyond what’s needed to return the parsed result to you.</p>
+      <p><strong>Usage data.</strong> Standard server logs: IP address, browser type, pages accessed, timestamps. We use this for security (detecting abuse) and to keep the Services running. Logs are retained for up to 90 days.</p>
+
+      <h2>How we use your information</h2>
+      <p>We use your data to operate the Services: render your dashboards, generate your invoices and other product outputs, run AI parsing on the text you submit, process your subscription payments, and send you transactional emails (password resets, billing receipts, invoice notifications). That’s the full list. We do not sell your data, we do not share it with advertisers, and we do not use it to train AI models.</p>
+      <p>Aggregate, fully-anonymized usage metrics may inform our product decisions (for example, how many users are on each tier, how often a feature is used) but never in a way that can identify you.</p>
+
+      <h2>Third parties we work with</h2>
+      <p>The Ora Consultant suite uses a small set of trusted infrastructure providers. Each receives only the data needed for their function and is contractually bound by their own privacy and security practices.</p>
+      <p><strong>Supabase</strong> hosts your account database, the records you create, and your client data. Supabase’s privacy practices: <a class="inline" href="https://supabase.com/privacy">supabase.com/privacy</a>.</p>
+      <p><strong>Stripe</strong> processes your subscription payments on the web. Stripe’s privacy practices: <a class="inline" href="https://stripe.com/privacy">stripe.com/privacy</a>.</p>
+      <p><strong>Anthropic</strong> (Claude) parses your natural-language input into structured entries. Anthropic’s privacy practices: <a class="inline" href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>.</p>
+      <p><strong>OpenAI</strong> (Whisper) transcribes voice input to text when in-browser transcription is unavailable. OpenAI’s privacy practices: <a class="inline" href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a>.</p>
+      <p><strong>RevenueCat</strong> manages in-app subscriptions on iOS and Android and relays purchase and subscription status to us. RevenueCat’s privacy practices: <a class="inline" href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
+      <p><strong>Apple and Google</strong> process in-app purchases on the Apple App Store and Google Play under their own terms when you subscribe inside the mobile apps.</p>
+      <p><strong>Vercel</strong> hosts the Ora Consultant suite’s web applications. Vercel’s privacy practices: <a class="inline" href="https://vercel.com/legal/privacy-policy">vercel.com/legal/privacy-policy</a>.</p>
+      <p><strong>Google</strong> (Google Calendar API) lets you connect your Google Calendar so meetings can be surfaced as candidate entries. We only request read-only access; see the Calendar integration section below for the full scope and data-handling description. Google’s privacy practices: <a class="inline" href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+      <p><strong>Microsoft</strong> (Microsoft Graph API) lets you connect your Microsoft 365 / Outlook calendars. Same read-only access and same data-handling description as Google; see the Calendar integration section below. Microsoft’s privacy practices: <a class="inline" href="https://privacy.microsoft.com">privacy.microsoft.com</a>.</p>
+      <p>We do not use any analytics or advertising trackers.</p>
+
+      <h2>Calendar integration</h2>
+      <p>Where a suite product offers calendar integration (currently Ora Consultant Time), connecting a Google Calendar or Microsoft 365 / Outlook calendar uses OAuth 2.0 to request read-only access to your calendar data.</p>
+      <p><strong>Scopes requested.</strong> For Google we request <strong>calendar.readonly</strong> and <strong>userinfo.email</strong>. calendar.readonly lets us read meeting metadata (title, start time, duration, attendees, organizer); userinfo.email lets us display which connected Google account an event came from when you have multiple calendars connected. For Microsoft we request <strong>Calendars.Read</strong>, which grants the same read-only metadata access to your Outlook calendars.</p>
+      <p><strong>How we use the data.</strong> We display upcoming and recent meetings so you can convert them into billable entries with one click. We store the OAuth refresh tokens encrypted in our database so we can fetch new events without asking you to log in again.</p>
+      <p><strong>What we never do.</strong> We never create, modify, or delete events on your calendar - the access is read-only. We do not read meeting bodies, descriptions, or attachments. We do not share, sell, or use your calendar data for any purpose other than displaying candidate entries to you. We do not use calendar data to train AI models or for advertising of any kind.</p>
+      <p><strong>Disconnecting.</strong> You can disconnect any calendar at any time from Settings - Integrations. Disconnecting revokes our OAuth tokens at the provider and removes the stored credentials from our database. Once disconnected, no further calendar data is read.</p>
+      <p>Our use of information received from Google APIs adheres to the <a class="inline" href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Our use of information received from Microsoft APIs adheres to the Microsoft Identity Platform terms and Microsoft Graph data-use policies.</p>
+
+      <h2>Cookies and local storage</h2>
+      <p>We use a small number of strictly-essential cookies for authentication (your session token) and use your browser’s localStorage to remember UI preferences (theme, reporting currency, sort order, dismissed tips). We do not use third-party tracking cookies and we do not load any analytics scripts.</p>
+
+      <h2>Data retention</h2>
+      <p>We retain your account data for as long as your account exists. If you delete your account, we delete the records you created (such as your time entries, clients, expected payments, and invoice profiles) within 30 days. Database backups (managed by Supabase) follow Supabase’s rolling 7 to 30 day retention policy before the deleted data is fully purged. Logs are retained for up to 90 days.</p>
+
+      <h2>Your rights</h2>
+      <p>Depending on your jurisdiction, you may have rights under GDPR (EU/UK), PIPEDA (Canada), CCPA (California), or other privacy laws. The Ora Consultant suite supports the following regardless of jurisdiction:</p>
+      <p><strong>Access.</strong> You can export your data as a plain Excel file from within the product (for example, the Reports page in Time) at any time.</p>
+      <p><strong>Correction.</strong> You can edit your account info, clients, and records directly in the app.</p>
+      <p><strong>Deletion.</strong> You can clear your records from Settings, and request full account deletion by emailing <a class="inline" href="mailto:support@oraconsultant.ai">support@oraconsultant.ai</a>. We will confirm and complete the deletion within 30 days.</p>
+      <p><strong>Complaint.</strong> If you believe we have mishandled your data, you have the right to lodge a complaint with your local supervisory authority (for example, your national data protection regulator in the EU, or the Office of the Privacy Commissioner of Canada). We’d appreciate a chance to address it directly first if possible.</p>
+
+      <h2>International data transfers</h2>
+      <p>Our infrastructure providers operate servers in multiple regions, which may include locations outside your home country. Where your data is transferred from the EU/UK to countries that do not have an adequacy decision, transfers are protected by Standard Contractual Clauses or equivalent safeguards put in place by the providers we use.</p>
+
+      <h2>Security</h2>
+      <p>All connections to the Ora Consultant suite use HTTPS (TLS). Your account data is stored in a database with row-level security policies that prevent any user from reading or writing another user’s data, enforced at the database layer. Supabase encrypts data at rest. We follow standard practices for credential handling, secret rotation, and dependency updates. No service is breach-proof, but we work to keep the surface area small and the controls tight.</p>
+
+      <h2>Children’s privacy</h2>
+      <p>The Ora Consultant suite is not directed to children under 16, and we do not knowingly collect data from anyone under that age. If you believe a minor has signed up, contact us and we will delete the account.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>When we make material changes to this Privacy Policy we will update the effective date at the top and notify you by email at least 14 days before the changes take effect, so you have time to review or close your account if you disagree.</p>
+
+      <h2>Contact</h2>
+      <p>Questions, concerns, or data requests: email <a class="inline" href="mailto:support@oraconsultant.ai">support@oraconsultant.ai</a>. We aim to respond within two working days.</p>
+
+      <div class="back">
+        <a href="/">← Back to home</a> · <a href="/terms">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <a class="wm brand" href="/" style="font-size:13px"><span class="o">Ora</span><span class="c">Consultant™</span></a>
+    <div class="foot-links">
+      <a href="https://time.oraconsultant.ai">Time</a>
+      <a href="/#products">Products</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+    </div>
+    <div class="foot-copy">© 2026 PrismiQ OÜ</div>
+  </div>
+</footer>
+
+<script>
+  document.documentElement.classList.add('js');
+  var nav=document.getElementById('nav');
+  var onScroll=function(){ nav.classList.toggle('scrolled', window.scrollY>8); };
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+</script>
+</body>
+</html>
