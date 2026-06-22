@@ -75,7 +75,14 @@
   .wm{font-family:"DM Sans",system-ui,-apple-system,sans-serif;display:inline-flex;align-items:baseline;gap:.333em;white-space:nowrap;line-height:1;font-weight:400;letter-spacing:0}
   .wm .o{font-size:2.667em;font-weight:500;letter-spacing:-.025em;line-height:1}
   .wm .c{font-weight:400;color:var(--grey-word)}
-  .wm.brand .o{color:var(--time)}
+  .wm.brand .o{
+    background:linear-gradient(105deg,#1D9E75 0%,#3D5AE0 40%,#7C5CE0 64%,#C13D8A 100%);
+    -webkit-background-clip:text;background-clip:text;
+    -webkit-text-fill-color:transparent;color:transparent;
+  }
+  @media (prefers-color-scheme: dark){
+    .wm.brand .o{background:linear-gradient(105deg,#5DCAA5 0%,#8FA2FF 40%,#B6A0FF 64%,#E58FC0 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+  }
 
   /* ---------- Nav ---------- */
   header.nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:var(--nav-bg);border-bottom:1px solid transparent;transition:border-color .3s}
