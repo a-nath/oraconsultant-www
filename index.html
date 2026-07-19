@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>Ora Consultant - The operating system for independent consultants</title>
-<meta name="description" content="One quiet, AI-native suite for the business of consulting: Time, Expenses, Tax, Schedule, Networth, and Transcript. Six products, one design system." />
+<meta name="description" content="One quiet, AI-native suite for the business of consulting: Time, Expenses, Tax, Tasks, Networth, Transcript, and more. Fifteen apps, one design system." />
 <meta name="author" content="PrismiQ OÜ" />
 <meta name="theme-color" content="#0D1217" />
 <!-- Icons -->
@@ -17,7 +17,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Ora Consultant" />
 <meta property="og:title" content="Ora Consultant - The operating system for independent consultants" />
-<meta property="og:description" content="One quiet, AI-native suite for the business of consulting. Six products, one design system." />
+<meta property="og:description" content="One quiet, AI-native suite for the business of consulting. Fifteen apps, one design system." />
 <meta property="og:url" content="https://oraconsultant.ai" />
 <meta property="og:image" content="https://oraconsultant.ai/og-image.png" />
 <meta property="og:image:width" content="1200" />
@@ -25,7 +25,7 @@
 <meta property="og:image:alt" content="Ora Consultant - the operating system for independent consultants" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Ora Consultant - The operating system for independent consultants" />
-<meta name="twitter:description" content="One quiet, AI-native suite for the business of consulting. Six products, one design system." />
+<meta name="twitter:description" content="One quiet, AI-native suite for the business of consulting. Fifteen apps, one design system." />
 <meta name="twitter:image" content="https://oraconsultant.ai/og-image.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -51,9 +51,18 @@
     --time:#1D9E75;       --time-t:#126E52;   --time-d:#5DCAA5;
     --expenses:#C77F0A;   --expenses-t:#8C5A05; --expenses-d:#E6A94D;
     --tax:#3D5AE0;        --tax-t:#2A40B5;    --tax-d:#8FA2FF;
-    --schedule:#7C5CE0;   --schedule-t:#5A3CC0; --schedule-d:#B6A0FF;
+    --tasks:#7C5CE0;   --tasks-t:#5A3CC0; --tasks-d:#B6A0FF;
     --networth:#0E8FA8;   --networth-t:#0A6E82; --networth-d:#46C2D6;
     --transcript:#C13D8A; --transcript-t:#962567; --transcript-d:#E58FC0;
+    --retire:#17A2B8;     --retire-t:#0F7A8C;   --retire-d:#56C7D6;
+    --estate:#8E6DAF;     --estate-t:#6E4E8E;   --estate-d:#B79ED4;
+    --wallet:#C7365A;     --wallet-t:#9C2743;   --wallet-d:#EE8AA4;
+    --fitness:#E0662E;    --fitness-t:#B04A18;  --fitness-d:#F5A06A;
+    --health:#E24A6A;     --health-t:#B22C4A;   --health-d:#F58BA6;
+    --life:#3E90C8;       --life-t:#2A6E9C;     --life-d:#82C0E8;
+    --ifrsipsas:#6B8E3D;  --ifrsipsas-t:#506B28;--ifrsipsas-d:#A0C070;
+    --esg:#3FA35A;        --esg-t:#2A7A40;      --esg-d:#7CD096;
+    --aml:#B0503D;        --aml-t:#883C2C;      --aml-d:#DE8E78;
   }
   @media (prefers-color-scheme: dark){
     :root{
@@ -73,9 +82,18 @@
       --time:#5DCAA5; --time-t:#5DCAA5;
       --expenses:#E6A94D; --expenses-t:#E6A94D;
       --tax:#8FA2FF; --tax-t:#8FA2FF;
-      --schedule:#B6A0FF; --schedule-t:#B6A0FF;
+      --tasks:#B6A0FF; --tasks-t:#B6A0FF;
       --networth:#46C2D6; --networth-t:#46C2D6;
       --transcript:#E58FC0; --transcript-t:#E58FC0;
+      --retire:#56C7D6; --retire-t:#56C7D6;
+      --estate:#B79ED4; --estate-t:#B79ED4;
+      --wallet:#EE8AA4; --wallet-t:#EE8AA4;
+      --fitness:#F5A06A; --fitness-t:#F5A06A;
+      --health:#F58BA6; --health-t:#F58BA6;
+      --life:#82C0E8; --life-t:#82C0E8;
+      --ifrsipsas:#A0C070; --ifrsipsas-t:#A0C070;
+      --esg:#7CD096; --esg-t:#7CD096;
+      --aml:#DE8E78; --aml-t:#DE8E78;
     }
   }
   *{box-sizing:border-box}
@@ -266,7 +284,7 @@
       <a class="btn btn-time" href="https://time.oraconsultant.ai">Open Ora Consultant Time <span class="arrow">→</span></a>
       <a class="btn btn-ghost" href="#products">See all products</a>
     </div>
-    <div class="micro reveal">One account. One design. Six products.</div>
+    <div class="micro reveal">One account. One design. Fifteen apps.</div>
   </div>
 </section>
 
@@ -313,7 +331,7 @@
     <div class="section-head center reveal">
       <div class="eyebrow">The Suite</div>
       <h2>Every part of the practice, in one family.</h2>
-      <p>Six products on a single design system, so moving between them feels like staying in the same place.</p>
+      <p>Fifteen apps on a single design system, so moving between them feels like staying in the same place.</p>
     </div>
 
     <div class="grid">
@@ -354,10 +372,10 @@
       </div>
 
       <!-- SCHEDULE (soon) -->
-      <div class="card soon" style="--ac:var(--schedule);--ac-t:var(--schedule-t)">
+      <div class="card soon" style="--ac:var(--tasks);--ac-t:var(--tasks-t)">
         <span class="glow"></span>
         <div class="card-ico"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 9h16M8 3v4M16 3v4"/></svg></div>
-        <h4 class="wm prod"><span class="o">Ora</span><span class="c">Consultant</span><span class="p">Schedule™</span></h4>
+        <h4 class="wm prod"><span class="o">Ora</span><span class="c">Consultant</span><span class="p">Tasks™</span></h4>
         <p class="desc">Plan your week around the work that actually bills. Capacity, commitments, and calendars in one calm view.</p>
         <div class="foot">
           <span class="status s-soon"><span class="dot"></span> Coming soon</span>
@@ -386,6 +404,106 @@
         </div>
       </div>
 
+      <!-- RETIRE (soon) -->
+      <div class="card soon" style="--ac:var(--retire);--ac-t:var(--retire-t)">
+        <span class="glow"></span>
+        <div class="card-ico"><svg viewBox="0 0 24 24"><path d="M12 21v-7"/><path d="M12 14c-4 0-6-2-6-6 4 0 6 2 6 6z"/><path d="M12 12c4 0 6-2 6-6-4 0-6 2-6 6z"/></svg></div>
+        <h4 class="wm prod"><span class="o">Ora</span><span class="c">Consultant</span><span class="p">Retire&trade;</span></h4>
+        <p class="desc">Model the years ahead. Contributions, drawdown, and the number you're really working toward.</p>
+        <div class="foot">
+          <span class="status s-soon"><span class="dot"></span> Coming soon</span>
+        </div>
+      </div>
+
+      <!-- ESTATE (soon) -->
+      <div class="card soon" style="--ac:var(--estate);--ac-t:var(--estate-t)">
+        <span class="glow"></span>
+        <div class="card-ico"><svg viewBox="0 0 24 24"><path d="M4 10l8-5 8 5"/><path d="M6 10v9h12v-9"/><path d="M10 19v-5h4v5"/></svg></div>
+        <h4 class="wm prod"><span class="o">Ora</span><span class="c">Consultant</span><span class="p">Estate&trade;</span></h4>
+        <p class="desc">Wills, assets, and beneficiaries, documented and current, so nothing important is left to chance.</p>
+        <div class="foot">
+          <span class="status s-soon"><span class="dot"></span> Coming soon</span>
+        </div>
+      </div>
+
+      <!-- WALLET (soon) -->
+      <div class="card soon" style="--ac:var(--wallet);--ac-t:var(--wallet-t)">
+        <span class="glow"></span>
+        <div class="card-ico"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div>
+        <h4 class="wm prod"><span class="o">Ora</span><span class="c">Consultant</span><span class="p">Wallet&trade;</span></h4>
+        <p class="desc">A zero-knowledge vault for passwords, keys, and 2FA. End-to-end encrypted; only you hold the key.</p>
+        <div class="foot">
+          <span class="status s-soon"><span class="dot"></span> Coming soon</span>
+        </div>
+      </div>
+
+      <!-- FITNESS (soon) -->
+      <div class="card soon" style="--ac:var(--fitness);--ac-t:var(--fitness-t)">
+        <span class="glow"></span>
+        <div class="card-ico"><svg viewBox="0 0 24 24"><path d="M4 12h3l2-5 4 12 2-7h5"/></svg></div>
+        <h4 class="wm prod"><span class="o">Ora</span><span class="c">Consultant</span><span class="p">Fitness&trade;</span></h4>
+        <p class="desc">Training and movement, tracked as quietly as your billable day.</p>
+        <div class="foot">
+          <span class="status s-soon"><span class="dot"></span> Coming soon</span>
+        </div>
+      </div>
+
+      <!-- HEALTH (soon) -->
+      <div class="card soon" style="--ac:var(--health);--ac-t:var(--health-t)">
+        <span class="glow"></span>
+        <div class="card-ico"><svg viewBox="0 0 24 24"><path d="M12 20s-6.5-4.2-6.5-9A3.6 3.6 0 0 1 12 8.2 3.6 3.6 0 0 1 18.5 11c0 4.8-6.5 9-6.5 9z"/></svg></div>
+        <h4 class="wm prod"><span class="o">Ora</span><span class="c">Consultant</span><span class="p">Health&trade;</span></h4>
+        <p class="desc">Records, appointments, and metrics in one private place you'll actually keep up to date.</p>
+        <div class="foot">
+          <span class="status s-soon"><span class="dot"></span> Coming soon</span>
+        </div>
+      </div>
+
+      <!-- LIFE (soon) -->
+      <div class="card soon" style="--ac:var(--life);--ac-t:var(--life-t)">
+        <span class="glow"></span>
+        <div class="card-ico"><svg viewBox="0 0 24 24"><rect x="6" y="4" width="12" height="16" rx="2"/><path d="M9 9h6M9 13h6M9 17h3"/></svg></div>
+        <h4 class="wm prod"><span class="o">Ora</span><span class="c">Consultant</span><span class="p">Life&trade;</span></h4>
+        <p class="desc">The admin of a life abroad, documents, renewals, and the small print, organised and on time.</p>
+        <div class="foot">
+          <span class="status s-soon"><span class="dot"></span> Coming soon</span>
+        </div>
+      </div>
+
+      <!-- IFRS-IPSAS (soon) -->
+      <div class="card soon" style="--ac:var(--ifrsipsas);--ac-t:var(--ifrsipsas-t)">
+        <span class="glow"></span>
+        <div class="card-ico"><svg viewBox="0 0 24 24"><path d="M6 4h9l3 3v13H6z"/><path d="M9 12h6M9 16h4"/></svg></div>
+        <h4 class="wm prod"><span class="o">Ora</span><span class="c">Consultant</span><span class="p">IFRS-IPSAS&trade;</span></h4>
+        <p class="desc">Standards-aligned reporting for public and private mandates, without the spreadsheet gymnastics.</p>
+        <div class="foot">
+          <span class="status s-soon"><span class="dot"></span> Coming soon</span>
+        </div>
+      </div>
+
+      <!-- ESG (soon) -->
+      <div class="card soon" style="--ac:var(--esg);--ac-t:var(--esg-t)">
+        <span class="glow"></span>
+        <div class="card-ico"><svg viewBox="0 0 24 24"><path d="M12 20c5-1 8-5 8-11-6 0-9 3-9 8"/><path d="M11 20c-3-1-5-4-5-8 4 0 5 2 5 5"/></svg></div>
+        <h4 class="wm prod"><span class="o">Ora</span><span class="c">Consultant</span><span class="p">ESG&trade;</span></h4>
+        <p class="desc">Track and report ESG for your own practice and your clients on one credible framework.</p>
+        <div class="foot">
+          <span class="status s-soon"><span class="dot"></span> Coming soon</span>
+        </div>
+      </div>
+
+      <!-- AML (soon) -->
+      <div class="card soon" style="--ac:var(--aml);--ac-t:var(--aml-t)">
+        <span class="glow"></span>
+        <div class="card-ico"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M9.5 12l1.8 1.8L15 10"/></svg></div>
+        <h4 class="wm prod"><span class="o">Ora</span><span class="c">Consultant</span><span class="p">AML&trade;</span></h4>
+        <p class="desc">KYC and AML screening for counterparties and engagements, before you take the work.</p>
+        <div class="foot">
+          <span class="status s-soon"><span class="dot"></span> Coming soon</span>
+        </div>
+      </div>
+
+
     </div>
   </div>
 </section>
@@ -396,16 +514,25 @@
     <div class="system reveal">
       <div class="section-head center">
         <div class="eyebrow">One design system</div>
-        <h2>Six products that feel like one.</h2>
+        <h2>Fifteen apps that feel like one.</h2>
         <p>Each product carries a single accent colour. Everything else stays identical: the type, the spacing, the rhythm. Learn one, and you already know them all.</p>
       </div>
       <div class="swatches">
         <span class="sw"><span class="chip" style="background:var(--time)"></span> Time</span>
         <span class="sw"><span class="chip" style="background:var(--expenses)"></span> Expenses</span>
         <span class="sw"><span class="chip" style="background:var(--tax)"></span> Tax</span>
-        <span class="sw"><span class="chip" style="background:var(--schedule)"></span> Schedule</span>
+        <span class="sw"><span class="chip" style="background:var(--tasks)"></span> Tasks</span>
         <span class="sw"><span class="chip" style="background:var(--networth)"></span> Networth</span>
         <span class="sw"><span class="chip" style="background:var(--transcript)"></span> Transcript</span>
+        <span class="sw"><span class="chip" style="background:var(--retire)"></span> Retire</span>
+        <span class="sw"><span class="chip" style="background:var(--estate)"></span> Estate</span>
+        <span class="sw"><span class="chip" style="background:var(--wallet)"></span> Wallet</span>
+        <span class="sw"><span class="chip" style="background:var(--fitness)"></span> Fitness</span>
+        <span class="sw"><span class="chip" style="background:var(--health)"></span> Health</span>
+        <span class="sw"><span class="chip" style="background:var(--life)"></span> Life</span>
+        <span class="sw"><span class="chip" style="background:var(--ifrsipsas)"></span> IFRS-IPSAS</span>
+        <span class="sw"><span class="chip" style="background:var(--esg)"></span> ESG</span>
+        <span class="sw"><span class="chip" style="background:var(--aml)"></span> AML</span>
       </div>
     </div>
   </div>
